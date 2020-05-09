@@ -25,9 +25,9 @@ hover_Red=(255,0,0)
 Cyan=(0,255,255)
 
 clock=pygame.time.Clock()
-carimg=pygame.image.load(r'C:\Users\NAMANJEET SINGH\Pictures\Saved Pictures\Car.png')
-crash_Sound=pygame.mixer.Sound(r"C:\Users\NAMANJEET SINGH\Music\crash_metal_med2.wav")
-pygame.mixer.music.load(r"C:\Users\NAMANJEET SINGH\Music\rock-out-complete_proud_music_preview.mp3")
+carimg=pygame.image.load('Car.png')
+crash_Sound=pygame.mixer.Sound("crash_metal_med2.wav")
+pygame.mixer.music.load("rock-out-complete_proud_music_preview.mp3")
 
 #functions
 def Score(count):
